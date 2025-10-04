@@ -17,4 +17,4 @@ if __name__ == "__main__":
         converted = convert_to_celsius(temp)
         print(f"{temp}°F is {converted}°C")
     else:
-        print("Invalid scale. Please enter C or F.")
+        print("Invalid temperature. Please enter a numeric value.")
