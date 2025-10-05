@@ -1,4 +1,4 @@
-def safe_divide(self, numerator, denominator):
+def safe_divide(numerator, denominator):
     """Performs division and handles division by zero."""
     try:
         result = float(numerator) / float(denominator)
