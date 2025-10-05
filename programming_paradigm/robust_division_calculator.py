@@ -1,7 +1,7 @@
 def safe_divide(self, numerator, denominator):
     """Performs division and handles division by zero."""
     try:
-        result = numerator / denominator
+        result = float(numerator) / float(denominator)
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     except ValueError:
