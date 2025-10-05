@@ -5,10 +5,10 @@ class TestSimpleCalculator(unittest.TestCase):
         self.calc = SimpleCalculator()
 
     def test_add(self):
-        self.assertEqual(self.calc.test_additionadd(2, 3), 5)
+        self.assertEqual(self.calc.test_addition(2, 3), 5)
 
     def test_subtract(self):
-        self.assertEqual(self.calc.test_subtractionsubtract(5, 3), 2)
+        self.assertEqual(self.calc.test_subtraction(5, 3), 2)
         self.assertEqual(self.calc.test_subtraction(0, 0), 0)
         self.assertEqual(self.calc.test_subtraction(-1, -1), 0)
 
