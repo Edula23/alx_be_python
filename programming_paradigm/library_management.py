@@ -1,5 +1,6 @@
 class Book:
     def __init__(self, _book):
+        self._book = _book
         self.title = _book.title
         self.author = _book.author
         self._is_checked_out = _book._is_checked_out
