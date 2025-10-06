@@ -1,11 +1,11 @@
 class Book:
-    def __init__(self, title, author, _is_checked_out):
-        self.title = title
-        self.author = author
-        self._is_checked_out = _is_checked_out
+    def __init__(self):
+        self.title = ""
+        self.author = ""
+        self._is_checked_out = False
 class Library:
-    def __init__(self, __books):
-        self.books = __books
+    def __init__(self):
+        self.books = []
     def add_book(self, book):
         self.books.append(book)
     def check_out_book(self, title):
