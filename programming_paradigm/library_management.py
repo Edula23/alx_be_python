@@ -1,8 +1,9 @@
 class Book:
-    def __init__(self):
-        self.title = ""
-        self.author = ""
-        self._is_checked_out = False
+    def __init__(self, _book):
+        self.title = _book.title
+        self.author = _book.author
+        self._is_checked_out = _book._is_checked_out
+        return _book(self)
 class Library:
     def __init__(self):
         self.books = []
